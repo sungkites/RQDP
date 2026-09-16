@@ -1,0 +1,9338 @@
+{
+  "omega": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "collections": [
+    {
+      "kind": "equipment",
+      "records": [
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 2,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 2,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        }
+      ]
+    },
+    {
+      "kind": "furniture",
+      "records": [
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 3
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 1
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 4
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        }
+      ]
+    },
+    {
+      "kind": "low_value",
+      "records": [
+        {
+          "domain": [
+            0,
+            2
+          ],
+          "truth": 0,
+          "cost_h": 2
+        },
+        {
+          "domain": [
+            1,
+            2
+          ],
+          "truth": 1,
+          "cost_h": 4
+        }
+      ]
+    }
+  ]
+}

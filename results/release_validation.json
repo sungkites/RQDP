@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "original_and_released_batches_equal": 542,
+  "primary_optimal_values_reproduced": 465,
+  "quality_summary_exact_match": true,
+  "asset_schema_numeric_only": true,
+  "secret_pattern_scan": "passed",
+  "correctness_checks": [
+    {
+      "models": 180,
+      "variants": 3,
+      "admissible_paths": 212598,
+      "failures": 0,
+      "seconds": 8.199649000000022,
+      "seed": 913472
+    },
+    {
+      "models": 240,
+      "admissible_paths": 89410,
+      "failures": 0,
+      "seed": 914217,
+      "seconds": 4.922196299999996
+    }
+  ],
+  "baseline_cost_rows_reproduced": 4650
+}
