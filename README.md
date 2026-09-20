@@ -40,4 +40,15 @@ Fresh outputs are written to `results/runs/`. Primary, scale, additional, and qu
 
 The reference state is used as an evaluation oracle, not as input to policy selection. Archived timings are measurements on the original machine, not expected runtimes on every machine. Baseline rules are adapted to the same allowed states, record feedback, and stopping condition; they are not runs of the original authors' complete systems. RQDP targets worst-case verification cost and exact computation efficiency, not uniformly best partial-budget F1 or mean observed cost.
 
+## Archived manuscript results
+
+| Manuscript result | File in `results/paper/` |
+| --- | --- |
+| Table 1 and Figure 2 | `final_primary.jsonl`; summary in `primary_summary.csv` |
+| Table 2 | `baselines.jsonl` (size-eight, natural-candidate, unit-cost rows); RQDP values also appear in `final_primary.jsonl` |
+| Table 3 and Figure 3 | `quality_summary.json` and `quality_paths.jsonl` |
+| Larger-batch and parameter results | `final_scale.jsonl` and `additional.jsonl` |
+
+The release check is recorded in `results/release_validation.json`. It confirms that the released predicate inputs preserve the 542 original batches at sizes 4, 8, and 16; that all 465 main-task optimal values, 4,650 baseline cost rows, and the quality summary reproduce; and that the released asset schema contains numeric fields only. These checks validate the released research artifact, not an independent dataset.
+
 This repository is a research artifact for a manuscript; it does not imply publication or acceptance. Funding: Zhejiang Province University Laboratory Research Project, grant ZB202677.
