@@ -46,7 +46,7 @@ python reproduce.py additional
 | `src/solver.py`, `src/robust_baselines.py` | Adapted baseline selection rules |
 | `src/v16_experiments.py` | Four-dataset quality and efficiency experiments |
 | `src/v16_structured.py` | Controlled residual-equivalence study |
-| `src/v16_figures.py` | Five manuscript figures and source-data tables |
+| `src/v16_figures.py` | Eight manuscript figures and source-data tables |
 | `data/` | Identifier-free predicate candidates and evaluation references |
 | `results/paper/` | Archived measurements for the earlier manuscript |
 | `results/v16/` | Archived measurements for the expanded manuscript |

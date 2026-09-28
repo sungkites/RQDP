@@ -210,6 +210,63 @@ def compression_example():
     save(fig, METHOD_DIR, "Fig2_residual_compression")
 
 
+def policy_recursion():
+    """Illustrate minimax recursion, lexicographic tie-breaking, and execution."""
+    style()
+    fig, axes = plt.subplots(1, 3, figsize=(7.2, 2.65), gridspec_kw={"wspace": 0.22})
+    titles = ["a  Worst-case recursion", "b  RQDP-A tie-break", "c  Evidence-preserving execution"]
+    for ax, title in zip(axes, titles):
+        ax.set_xlim(0, 1)
+        ax.set_ylim(0, 1)
+        ax.axis("off")
+        ax.set_title(title, loc="left", weight="semibold", pad=5)
+
+    # Panel a: the adversarial branch fixes the value of each action.
+    ax = axes[0]
+    ax.add_patch(Circle((0.50, 0.84), 0.065, facecolor=COLORS["light_gray"], edgecolor=COLORS["slate"], linewidth=0.8))
+    ax.text(0.50, 0.84, "s", ha="center", va="center", fontsize=7.5, weight="semibold")
+    actions = [(0.25, "t1", "7"), (0.75, "t2", "8")]
+    for x, label, value in actions:
+        arrow(ax, (0.47 if x < 0.5 else 0.53, 0.79), (x, 0.68))
+        ax.add_patch(FancyBboxPatch((x - 0.10, 0.58), 0.20, 0.11, boxstyle="round,pad=0.01", facecolor="white", edgecolor=COLORS["blue"], linewidth=0.8))
+        ax.text(x, 0.635, label, ha="center", va="center", fontsize=7)
+        for dx, cost in [(-0.10, int(value) - 1), (0.10, int(value))]:
+            arrow(ax, (x, 0.57), (x + dx, 0.40))
+            ax.add_patch(Circle((x + dx, 0.34), 0.052, facecolor=COLORS["light_blue"], edgecolor=COLORS["blue"], linewidth=0.7))
+            ax.text(x + dx, 0.34, str(cost), ha="center", va="center", fontsize=6.5)
+        ax.text(x, 0.18, f"max = {value}", ha="center", fontsize=7, color=COLORS["slate"])
+    ax.text(0.50, 0.06, "choose t1", ha="center", fontsize=7.4, weight="semibold", color=COLORS["ink"])
+
+    # Panel b: same primary value, smaller unresolved-query area wins.
+    ax = axes[1]
+    ax.text(0.50, 0.84, "pair = (primary cost, unresolved area)", ha="center", fontsize=6.5, color=COLORS["slate"])
+    for y, label, pair, face in [
+        (0.63, "t1", "(7, 19)", COLORS["light_gray"]),
+        (0.38, "t2", "(7, 15)", COLORS["light_orange"]),
+    ]:
+        ax.add_patch(FancyBboxPatch((0.14, y - 0.08), 0.72, 0.16, boxstyle="round,pad=0.015", facecolor=face, edgecolor=COLORS["slate"], linewidth=0.8))
+        ax.text(0.25, y, label, ha="center", va="center", fontsize=7.2, weight="semibold")
+        ax.text(0.62, y, pair, ha="center", va="center", fontsize=8)
+    ax.text(0.50, 0.18, "same 7; select smaller area 15", ha="center", fontsize=6.9, color=COLORS["slate"])
+    arrow(ax, (0.50, 0.14), (0.50, 0.05), COLORS["orange"])
+    ax.text(0.50, 0.01, "select t2", ha="center", fontsize=7.4, weight="semibold", color=COLORS["ink"])
+
+    # Panel c: planning types are compressed, evidence remains record-specific.
+    ax = axes[2]
+    steps = [
+        (0.72, "selected type", COLORS["light_green"]),
+        (0.50, "original record", COLORS["light_blue"]),
+        (0.28, "full feedback", COLORS["light_orange"]),
+        (0.06, "update evidence + r", COLORS["light_gray"]),
+    ]
+    for idx, (y, label, face) in enumerate(steps):
+        ax.add_patch(FancyBboxPatch((0.16, y), 0.68, 0.13, boxstyle="round,pad=0.012", facecolor=face, edgecolor=COLORS["slate"], linewidth=0.75))
+        ax.text(0.50, y + 0.065, label, ha="center", va="center", fontsize=7)
+        if idx < len(steps) - 1:
+            arrow(ax, (0.50, y - 0.01), (0.50, steps[idx + 1][0] + 0.15))
+    save(fig, METHOD_DIR, "Fig3_policy_recursion")
+
+
 def quality_figure():
     path = RESULTS / "quality_summary.json"
     if not path.exists():
@@ -242,10 +299,10 @@ def quality_figure():
     handles, legend_labels = axes[0, 0].get_legend_handles_labels()
     fig.legend(handles, legend_labels, loc="upper center", ncol=4, frameon=False, bbox_to_anchor=(0.52, 1.01))
     fig.subplots_adjust(top=0.90, left=0.09, right=0.98, bottom=0.10, hspace=0.28, wspace=0.15)
-    with (SOURCE_DIR / "Fig3_quality_curves.csv").open("w", encoding="utf-8", newline="") as stream:
+    with (SOURCE_DIR / "Fig6_quality_curves.csv").open("w", encoding="utf-8", newline="") as stream:
         writer = csv.DictWriter(stream, fieldnames=["dataset", "method", "cost_fraction", "f1"])
         writer.writeheader(); writer.writerows(source)
-    save(fig, EXP_DIR, "Fig3_quality_cost_curves")
+    save(fig, EXP_DIR, "Fig6_quality_cost_curves")
 
 
 def efficiency_figure():
@@ -310,6 +367,112 @@ def efficiency_figure():
         writer = csv.DictWriter(stream, fieldnames=["method", "size", "median_ms_across_datasets", "mean_completion_rate"])
         writer.writeheader(); writer.writerows(source)
     save(fig, EXP_DIR, "Fig4_efficiency_scaling")
+
+
+def ablation_size8_figure():
+    """Dataset-level size-eight comparison of time and expanded states."""
+    path = RESULTS / "efficiency.jsonl"
+    if not path.exists():
+        return
+    raw = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()]
+    methods = ["identity", "static", "residual", "rqdp"]
+    datasets = ["flights", "assets", "hospital", "beers"]
+    labels = {"identity": "Record DP", "static": "Static", "residual": "Residual", "rqdp": "RQDP"}
+    colors = {"identity": COLORS["slate"], "static": COLORS["blue"], "residual": COLORS["orange"], "rqdp": COLORS["green"]}
+    task_runs = defaultdict(list)
+    task_states = defaultdict(list)
+    for row in raw:
+        if row["size"] != 8 or row["method"] not in methods:
+            continue
+        key = (row["dataset"], row["kind"], row["group"], row["method"])
+        task_runs[key].append(1000 * row["seconds"])
+        task_states[key].append(row["states"])
+    summary = []
+    for dataset in datasets:
+        for method in methods:
+            keys = [key for key in task_runs if key[0] == dataset and key[3] == method]
+            per_task_time = [statistics_median(task_runs[key]) for key in keys]
+            per_task_states = [statistics_median(task_states[key]) for key in keys]
+            summary.append({
+                "dataset": dataset,
+                "method": method,
+                "median_ms": statistics_median(per_task_time),
+                "median_states": statistics_median(per_task_states),
+                "tasks": len(keys),
+            })
+
+    style()
+    fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.85))
+    x = list(range(len(datasets)))
+    offsets = [-0.27, -0.09, 0.09, 0.27]
+    for method, offset in zip(methods, offsets):
+        subset = [next(row for row in summary if row["dataset"] == dataset and row["method"] == method) for dataset in datasets]
+        axes[0].scatter([value + offset for value in x], [row["median_ms"] for row in subset], s=26, marker="o", color=colors[method], label=labels[method], zorder=3)
+        axes[1].scatter([value + offset for value in x], [row["median_states"] for row in subset], s=26, marker="o", color=colors[method], label=labels[method], zorder=3)
+    for letter, ax, ylabel, title in [
+        ("a", axes[0], "Median planning time (ms)", "Planning time"),
+        ("b", axes[1], "Median expanded states", "Search states"),
+    ]:
+        ax.set_yscale("log")
+        ax.set_xticks(x, [name.capitalize() for name in datasets])
+        ax.set_ylabel(ylabel)
+        ax.set_title(f"{letter}  {title}", loc="left", weight="semibold")
+        ax.grid(axis="y", color=COLORS["grid"], linewidth=0.6)
+        ax.spines[["top", "right"]].set_visible(False)
+    handles, legend_labels = axes[0].get_legend_handles_labels()
+    fig.legend(handles, legend_labels, loc="upper center", ncol=4, frameon=False, bbox_to_anchor=(0.52, 1.03))
+    fig.subplots_adjust(top=0.82, left=0.10, right=0.98, bottom=0.18, wspace=0.32)
+    with (SOURCE_DIR / "Fig5_ablation_size8.csv").open("w", encoding="utf-8", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=["dataset", "method", "median_ms", "median_states", "tasks"])
+        writer.writeheader(); writer.writerows(summary)
+    save(fig, EXP_DIR, "Fig5_ablation_size8")
+
+
+def quality_summary_figure():
+    """Summarize the partial-verification quality and observed path cost."""
+    path = RESULTS / "quality_summary.json"
+    if not path.exists():
+        return
+    rows = json.loads(path.read_text(encoding="utf-8"))
+    methods = ["ec2", "pairs", "rqdp", "rqdp_anytime"]
+    datasets = ["flights", "assets", "hospital", "beers"]
+    labels = {"ec2": "EC²", "pairs": "Pairs", "rqdp": "RQDP", "rqdp_anytime": "RQDP-A"}
+    colors = {"ec2": COLORS["blue"], "pairs": COLORS["green"], "rqdp": COLORS["slate"], "rqdp_anytime": COLORS["orange"]}
+    style()
+    fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.95))
+    x = list(range(len(datasets)))
+    width = 0.18
+    for idx, method in enumerate(methods):
+        subset = [next(row for row in rows if row["dataset"] == dataset and row["method"] == method) for dataset in datasets]
+        offset = (idx - 1.5) * width
+        axes[0].bar([value + offset for value in x], [row["f1_cost_auc"] for row in subset], width=width, color=colors[method], label=labels[method])
+        axes[1].scatter([value + offset for value in x], [row["mean_reference_cost"] for row in subset], marker=["o", "s", "^", "D"][idx], s=28, color=colors[method], label=labels[method], zorder=3)
+    axes[0].set_ylim(0.30, 0.90)
+    axes[0].set_ylabel("F1-cost area")
+    axes[0].set_title("a  Quality over verification cost", loc="left", weight="semibold")
+    axes[1].set_ylabel("Mean reference-path cost")
+    axes[1].set_title("b  Cost on reference feedback", loc="left", weight="semibold")
+    for ax in axes:
+        ax.set_xticks(x, [name.capitalize() for name in datasets])
+        ax.grid(axis="y", color=COLORS["grid"], linewidth=0.6)
+        ax.spines[["top", "right"]].set_visible(False)
+    handles, legend_labels = axes[0].get_legend_handles_labels()
+    fig.legend(handles, legend_labels, loc="upper center", ncol=4, frameon=False, bbox_to_anchor=(0.52, 1.03))
+    fig.subplots_adjust(top=0.82, left=0.10, right=0.98, bottom=0.18, wspace=0.30)
+    source = [
+        {
+            "dataset": row["dataset"],
+            "method": row["method"],
+            "f1_cost_area": row["f1_cost_auc"],
+            "coverage_cost_area": row["coverage_cost_auc"],
+            "mean_reference_cost": row["mean_reference_cost"],
+        }
+        for row in rows if row["method"] in methods
+    ]
+    with (SOURCE_DIR / "Fig7_quality_summary.csv").open("w", encoding="utf-8", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=["dataset", "method", "f1_cost_area", "coverage_cost_area", "mean_reference_cost"])
+        writer.writeheader(); writer.writerows(source)
+    save(fig, EXP_DIR, "Fig7_quality_summary")
 
 
 def statistics_median(values):
@@ -385,17 +548,20 @@ def synthetic_figure():
         source.append({"panel": "heatmap", "size": size, "retired_dimensions": retired, "cost_regime": "U", "median_speedup": statistics_median([v for v, _ in values]), "censored_fraction": sum(c for _, c in values) / len(values), "runs": len(values)})
     for (retired, regime), values in sorted(sensitivity.items()):
         source.append({"panel": "cost_regime", "size": "", "retired_dimensions": retired, "cost_regime": regime, "median_speedup": statistics_median([v for v, _ in values]), "censored_fraction": sum(c for _, c in values) / len(values), "runs": len(values)})
-    with (SOURCE_DIR / "Fig5_controlled_scaling.csv").open("w", encoding="utf-8", newline="") as stream:
+    with (SOURCE_DIR / "Fig8_controlled_scaling.csv").open("w", encoding="utf-8", newline="") as stream:
         writer = csv.DictWriter(stream, fieldnames=["panel", "size", "retired_dimensions", "cost_regime", "median_speedup", "censored_fraction", "runs"])
         writer.writeheader(); writer.writerows(source)
-    save(fig, EXP_DIR, "Fig5_controlled_scaling")
+    save(fig, EXP_DIR, "Fig8_controlled_scaling")
 
 
 def main():
     method_pipeline()
     compression_example()
-    quality_figure()
+    policy_recursion()
     efficiency_figure()
+    ablation_size8_figure()
+    quality_figure()
+    quality_summary_figure()
     synthetic_figure()
 
 
