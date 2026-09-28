@@ -554,6 +554,137 @@ def synthetic_figure():
     save(fig, EXP_DIR, "Fig8_controlled_scaling")
 
 
+def _average_ranks(values):
+    """Return one-based average ranks, including ties."""
+    order = sorted(range(len(values)), key=lambda index: values[index])
+    ranks = [0.0] * len(values)
+    start = 0
+    while start < len(order):
+        end = start + 1
+        while end < len(order) and values[order[end]] == values[order[start]]:
+            end += 1
+        average = (start + 1 + end) / 2
+        for position in range(start, end):
+            ranks[order[position]] = average
+        start = end
+    return ranks
+
+
+def _correlation(left, right):
+    left_mean = sum(left) / len(left)
+    right_mean = sum(right) / len(right)
+    numerator = sum((x - left_mean) * (y - right_mean) for x, y in zip(left, right))
+    left_scale = math.sqrt(sum((x - left_mean) ** 2 for x in left))
+    right_scale = math.sqrt(sum((y - right_mean) ** 2 for y in right))
+    return numerator / (left_scale * right_scale)
+
+
+def task_level_analysis_figure():
+    """Show speedup distributions and their relation to state reduction."""
+    path = RESULTS / "efficiency.jsonl"
+    if not path.exists():
+        return
+    raw = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines()]
+    methods = {"identity", "rqdp"}
+    task_runs = defaultdict(list)
+    task_states = defaultdict(list)
+    for row in raw:
+        if row["size"] != 8 or row["method"] not in methods or row["status"] != "complete":
+            continue
+        key = (
+            row["dataset"], row["kind"], row["group"], row["remainder"],
+            row["radius"], row["cost_regime"], row["method"],
+        )
+        task_runs[key].append(row["seconds"])
+        task_states[key].append(row["states"])
+
+    paired = []
+    base_keys = sorted({key[:-1] for key in task_runs})
+    for base in base_keys:
+        identity_key = base + ("identity",)
+        rqdp_key = base + ("rqdp",)
+        if identity_key not in task_runs or rqdp_key not in task_runs:
+            continue
+        identity_seconds = statistics_median(task_runs[identity_key])
+        rqdp_seconds = statistics_median(task_runs[rqdp_key])
+        identity_states = statistics_median(task_states[identity_key])
+        rqdp_states = statistics_median(task_states[rqdp_key])
+        paired.append({
+            "dataset": base[0],
+            "kind": base[1],
+            "group": base[2],
+            "remainder": base[3],
+            "radius": base[4],
+            "cost_regime": base[5],
+            "time_speedup": identity_seconds / rqdp_seconds,
+            "state_reduction": identity_states / rqdp_states,
+        })
+
+    datasets = ["flights", "assets", "hospital", "beers"]
+    dataset_colors = {
+        "flights": COLORS["blue"], "assets": COLORS["green"],
+        "hospital": COLORS["slate"], "beers": COLORS["orange"],
+    }
+    speedups = [row["time_speedup"] for row in paired]
+    state_reductions = [row["state_reduction"] for row in paired]
+    rho = _correlation(_average_ranks(state_reductions), _average_ranks(speedups))
+
+    style()
+    fig, axes = plt.subplots(1, 2, figsize=(7.2, 2.95), gridspec_kw={"width_ratios": [0.92, 1.08]})
+    grouped = [[row["time_speedup"] for row in paired if row["dataset"] == dataset] for dataset in datasets]
+    boxplot = axes[0].boxplot(
+        grouped, positions=range(1, len(datasets) + 1), widths=0.52,
+        patch_artist=True, showfliers=False,
+        medianprops={"color": COLORS["ink"], "linewidth": 1.1},
+        whiskerprops={"color": COLORS["slate"], "linewidth": 0.8},
+        capprops={"color": COLORS["slate"], "linewidth": 0.8},
+        boxprops={"color": COLORS["slate"], "linewidth": 0.8},
+    )
+    for patch, dataset in zip(boxplot["boxes"], datasets):
+        patch.set_facecolor(dataset_colors[dataset])
+        patch.set_alpha(0.28)
+    for dataset_index, (dataset, values) in enumerate(zip(datasets, grouped), start=1):
+        jitter = [((index * 37) % 101 - 50) / 390 for index in range(len(values))]
+        axes[0].scatter(
+            [dataset_index + value for value in jitter], values,
+            s=7, color=dataset_colors[dataset], alpha=0.22, linewidths=0, zorder=2,
+        )
+    axes[0].axhline(1, color=COLORS["slate"], linewidth=0.8, linestyle="--")
+    axes[0].set_yscale("log")
+    axes[0].set_xticks(range(1, len(datasets) + 1), [name.capitalize() for name in datasets])
+    axes[0].set_ylabel("Task-level speedup over record DP (×)")
+    axes[0].set_title("a  Distribution across workloads", loc="left", weight="semibold")
+
+    for dataset in datasets:
+        subset = [row for row in paired if row["dataset"] == dataset]
+        axes[1].scatter(
+            [row["state_reduction"] for row in subset],
+            [row["time_speedup"] for row in subset],
+            s=11, color=dataset_colors[dataset], alpha=0.48,
+            edgecolors="none", label=dataset.capitalize(),
+        )
+    axes[1].set_xscale("log")
+    axes[1].set_yscale("log")
+    axes[1].set_xlabel("Reduction in expanded states (×)")
+    axes[1].set_ylabel("Task-level speedup (×)")
+    axes[1].set_title("b  Search reduction and runtime", loc="left", weight="semibold")
+    axes[1].text(
+        0.04, 0.94, f"Spearman ρ = {rho:.3f}\nn = {len(paired)}",
+        transform=axes[1].transAxes, va="top", ha="left", fontsize=7,
+        bbox={"boxstyle": "round,pad=0.25", "facecolor": "white", "edgecolor": COLORS["grid"], "linewidth": 0.6},
+    )
+    axes[1].legend(frameon=False, loc="lower right", ncol=2, columnspacing=0.8, handletextpad=0.3)
+    for ax in axes:
+        ax.grid(which="major", axis="y", color=COLORS["grid"], linewidth=0.6)
+        ax.spines[["top", "right"]].set_visible(False)
+    fig.subplots_adjust(top=0.89, left=0.10, right=0.98, bottom=0.19, wspace=0.34)
+
+    with (SOURCE_DIR / "Fig9_task_level_analysis.csv").open("w", encoding="utf-8", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=["dataset", "kind", "group", "remainder", "radius", "cost_regime", "time_speedup", "state_reduction"])
+        writer.writeheader(); writer.writerows(paired)
+    save(fig, EXP_DIR, "Fig9_task_level_analysis")
+
+
 def main():
     method_pipeline()
     compression_example()
@@ -563,6 +694,7 @@ def main():
     quality_figure()
     quality_summary_figure()
     synthetic_figure()
+    task_level_analysis_figure()
 
 
 if __name__ == "__main__":
