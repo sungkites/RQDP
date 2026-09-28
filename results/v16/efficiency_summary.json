@@ -1,0 +1,722 @@
+[
+  {
+    "dataset": "assets",
+    "size": 4,
+    "method": "identity",
+    "tasks": 870,
+    "completion_rate": 1.0,
+    "median_ms": 0.888608512468636,
+    "mean_states": 15.00344827586207
+  },
+  {
+    "dataset": "assets",
+    "size": 4,
+    "method": "residual",
+    "tasks": 870,
+    "completion_rate": 1.0,
+    "median_ms": 0.35707815550267696,
+    "mean_states": 4.337931034482758
+  },
+  {
+    "dataset": "assets",
+    "size": 4,
+    "method": "rqdp",
+    "tasks": 870,
+    "completion_rate": 1.0,
+    "median_ms": 0.33037003595381975,
+    "mean_states": 4.327586206896552
+  },
+  {
+    "dataset": "assets",
+    "size": 4,
+    "method": "rqdp_anytime",
+    "tasks": 870,
+    "completion_rate": 1.0,
+    "median_ms": 0.3717829240486026,
+    "mean_states": 4.93448275862069
+  },
+  {
+    "dataset": "assets",
+    "size": 4,
+    "method": "static",
+    "tasks": 870,
+    "completion_rate": 1.0,
+    "median_ms": 0.23098557721823454,
+    "mean_states": 4.303448275862069
+  },
+  {
+    "dataset": "assets",
+    "size": 8,
+    "method": "identity",
+    "tasks": 435,
+    "completion_rate": 1.0,
+    "median_ms": 24.054196197539568,
+    "mean_states": 256.33103448275864
+  },
+  {
+    "dataset": "assets",
+    "size": 8,
+    "method": "residual",
+    "tasks": 435,
+    "completion_rate": 1.0,
+    "median_ms": 0.6491739768534899,
+    "mean_states": 9.10344827586207
+  },
+  {
+    "dataset": "assets",
+    "size": 8,
+    "method": "rqdp",
+    "tasks": 435,
+    "completion_rate": 1.0,
+    "median_ms": 0.6058879662305117,
+    "mean_states": 9.13103448275862
+  },
+  {
+    "dataset": "assets",
+    "size": 8,
+    "method": "rqdp_anytime",
+    "tasks": 435,
+    "completion_rate": 1.0,
+    "median_ms": 0.6181059870868921,
+    "mean_states": 13.793103448275861
+  },
+  {
+    "dataset": "assets",
+    "size": 8,
+    "method": "static",
+    "tasks": 435,
+    "completion_rate": 1.0,
+    "median_ms": 0.42047305032610893,
+    "mean_states": 9.648275862068965
+  },
+  {
+    "dataset": "assets",
+    "size": 16,
+    "method": "identity",
+    "tasks": 72,
+    "completion_rate": 0.0,
+    "median_ms": null,
+    "mean_states": null
+  },
+  {
+    "dataset": "assets",
+    "size": 16,
+    "method": "residual",
+    "tasks": 72,
+    "completion_rate": 1.0,
+    "median_ms": 1.221584971062839,
+    "mean_states": 22.375
+  },
+  {
+    "dataset": "assets",
+    "size": 16,
+    "method": "rqdp",
+    "tasks": 72,
+    "completion_rate": 1.0,
+    "median_ms": 1.1731904232874513,
+    "mean_states": 22.48611111111111
+  },
+  {
+    "dataset": "assets",
+    "size": 16,
+    "method": "rqdp_anytime",
+    "tasks": 72,
+    "completion_rate": 1.0,
+    "median_ms": 1.1846884153783321,
+    "mean_states": 91.47222222222223
+  },
+  {
+    "dataset": "assets",
+    "size": 16,
+    "method": "static",
+    "tasks": 72,
+    "completion_rate": 1.0,
+    "median_ms": 0.8159899152815342,
+    "mean_states": 24.97222222222222
+  },
+  {
+    "dataset": "assets",
+    "size": 32,
+    "method": "identity",
+    "tasks": 35,
+    "completion_rate": 0.0,
+    "median_ms": null,
+    "mean_states": null
+  },
+  {
+    "dataset": "assets",
+    "size": 32,
+    "method": "residual",
+    "tasks": 35,
+    "completion_rate": 1.0,
+    "median_ms": 2.417145064100623,
+    "mean_states": 69.51428571428572
+  },
+  {
+    "dataset": "assets",
+    "size": 32,
+    "method": "rqdp",
+    "tasks": 35,
+    "completion_rate": 1.0,
+    "median_ms": 1.3581060338765383,
+    "mean_states": 81.65714285714286
+  },
+  {
+    "dataset": "assets",
+    "size": 32,
+    "method": "rqdp_anytime",
+    "tasks": 35,
+    "completion_rate": 1.0,
+    "median_ms": 1.859996933490038,
+    "mean_states": 1277.5428571428572
+  },
+  {
+    "dataset": "assets",
+    "size": 32,
+    "method": "static",
+    "tasks": 35,
+    "completion_rate": 1.0,
+    "median_ms": 1.0195530485361814,
+    "mean_states": 77.22857142857143
+  },
+  {
+    "dataset": "beers",
+    "size": 4,
+    "method": "identity",
+    "tasks": 1452,
+    "completion_rate": 1.0,
+    "median_ms": 1.8071195809170604,
+    "mean_states": 15.0
+  },
+  {
+    "dataset": "beers",
+    "size": 4,
+    "method": "residual",
+    "tasks": 1452,
+    "completion_rate": 1.0,
+    "median_ms": 1.2029345380142331,
+    "mean_states": 7.847107438016529
+  },
+  {
+    "dataset": "beers",
+    "size": 4,
+    "method": "rqdp",
+    "tasks": 1452,
+    "completion_rate": 1.0,
+    "median_ms": 0.9736536303535104,
+    "mean_states": 7.847107438016529
+  },
+  {
+    "dataset": "beers",
+    "size": 4,
+    "method": "rqdp_anytime",
+    "tasks": 1452,
+    "completion_rate": 1.0,
+    "median_ms": 1.4350204728543758,
+    "mean_states": 19.276859504132233
+  },
+  {
+    "dataset": "beers",
+    "size": 4,
+    "method": "static",
+    "tasks": 1452,
+    "completion_rate": 1.0,
+    "median_ms": 1.065392978489399,
+    "mean_states": 8.973140495867769
+  },
+  {
+    "dataset": "beers",
+    "size": 8,
+    "method": "identity",
+    "tasks": 726,
+    "completion_rate": 1.0,
+    "median_ms": 58.08034189976752,
+    "mean_states": 308.64462809917353
+  },
+  {
+    "dataset": "beers",
+    "size": 8,
+    "method": "residual",
+    "tasks": 726,
+    "completion_rate": 1.0,
+    "median_ms": 2.931214985437691,
+    "mean_states": 20.764462809917354
+  },
+  {
+    "dataset": "beers",
+    "size": 8,
+    "method": "rqdp",
+    "tasks": 726,
+    "completion_rate": 1.0,
+    "median_ms": 2.1112384274601936,
+    "mean_states": 20.764462809917354
+  },
+  {
+    "dataset": "beers",
+    "size": 8,
+    "method": "rqdp_anytime",
+    "tasks": 726,
+    "completion_rate": 1.0,
+    "median_ms": 4.63044352363795,
+    "mean_states": 61.16528925619835
+  },
+  {
+    "dataset": "beers",
+    "size": 8,
+    "method": "static",
+    "tasks": 726,
+    "completion_rate": 1.0,
+    "median_ms": 6.438908050768077,
+    "mean_states": 50.19421487603306
+  },
+  {
+    "dataset": "beers",
+    "size": 16,
+    "method": "identity",
+    "tasks": 121,
+    "completion_rate": 0.0,
+    "median_ms": null,
+    "mean_states": null
+  },
+  {
+    "dataset": "beers",
+    "size": 16,
+    "method": "residual",
+    "tasks": 121,
+    "completion_rate": 1.0,
+    "median_ms": 1.8593310378491879,
+    "mean_states": 45.074380165289256
+  },
+  {
+    "dataset": "beers",
+    "size": 16,
+    "method": "rqdp",
+    "tasks": 121,
+    "completion_rate": 1.0,
+    "median_ms": 1.085102092474699,
+    "mean_states": 45.074380165289256
+  },
+  {
+    "dataset": "beers",
+    "size": 16,
+    "method": "rqdp_anytime",
+    "tasks": 121,
+    "completion_rate": 1.0,
+    "median_ms": 1.0591151658445597,
+    "mean_states": 168.6611570247934
+  },
+  {
+    "dataset": "beers",
+    "size": 16,
+    "method": "static",
+    "tasks": 121,
+    "completion_rate": 1.0,
+    "median_ms": 62.31360882520676,
+    "mean_states": 354.41322314049586
+  },
+  {
+    "dataset": "beers",
+    "size": 32,
+    "method": "identity",
+    "tasks": 60,
+    "completion_rate": 0.0,
+    "median_ms": null,
+    "mean_states": null
+  },
+  {
+    "dataset": "beers",
+    "size": 32,
+    "method": "residual",
+    "tasks": 60,
+    "completion_rate": 1.0,
+    "median_ms": 3.261238452978432,
+    "mean_states": 92.08333333333333
+  },
+  {
+    "dataset": "beers",
+    "size": 32,
+    "method": "rqdp",
+    "tasks": 60,
+    "completion_rate": 1.0,
+    "median_ms": 1.8872740911319852,
+    "mean_states": 92.08333333333333
+  },
+  {
+    "dataset": "beers",
+    "size": 32,
+    "method": "rqdp_anytime",
+    "tasks": 60,
+    "completion_rate": 1.0,
+    "median_ms": 1.6390804667025805,
+    "mean_states": 510.0
+  },
+  {
+    "dataset": "beers",
+    "size": 32,
+    "method": "static",
+    "tasks": 60,
+    "completion_rate": 1.0,
+    "median_ms": 609.952038503252,
+    "mean_states": 3244.1833333333334
+  },
+  {
+    "dataset": "flights",
+    "size": 4,
+    "method": "identity",
+    "tasks": 60,
+    "completion_rate": 1.0,
+    "median_ms": 1.1540610576048493,
+    "mean_states": 18.0
+  },
+  {
+    "dataset": "flights",
+    "size": 4,
+    "method": "residual",
+    "tasks": 60,
+    "completion_rate": 1.0,
+    "median_ms": 1.1234289268031716,
+    "mean_states": 11.9
+  },
+  {
+    "dataset": "flights",
+    "size": 4,
+    "method": "rqdp",
+    "tasks": 60,
+    "completion_rate": 1.0,
+    "median_ms": 0.9813155047595501,
+    "mean_states": 11.45
+  },
+  {
+    "dataset": "flights",
+    "size": 4,
+    "method": "rqdp_anytime",
+    "tasks": 60,
+    "completion_rate": 1.0,
+    "median_ms": 1.3210360193625093,
+    "mean_states": 15.55
+  },
+  {
+    "dataset": "flights",
+    "size": 4,
+    "method": "static",
+    "tasks": 60,
+    "completion_rate": 1.0,
+    "median_ms": 0.6970460526645184,
+    "mean_states": 11.65
+  },
+  {
+    "dataset": "flights",
+    "size": 8,
+    "method": "identity",
+    "tasks": 30,
+    "completion_rate": 1.0,
+    "median_ms": 48.703399021178484,
+    "mean_states": 562.2
+  },
+  {
+    "dataset": "flights",
+    "size": 8,
+    "method": "residual",
+    "tasks": 30,
+    "completion_rate": 1.0,
+    "median_ms": 5.70141093339771,
+    "mean_states": 68.3
+  },
+  {
+    "dataset": "flights",
+    "size": 8,
+    "method": "rqdp",
+    "tasks": 30,
+    "completion_rate": 1.0,
+    "median_ms": 4.777743015438318,
+    "mean_states": 54.3
+  },
+  {
+    "dataset": "flights",
+    "size": 8,
+    "method": "rqdp_anytime",
+    "tasks": 30,
+    "completion_rate": 1.0,
+    "median_ms": 4.231541068293154,
+    "mean_states": 66.2
+  },
+  {
+    "dataset": "flights",
+    "size": 8,
+    "method": "static",
+    "tasks": 30,
+    "completion_rate": 1.0,
+    "median_ms": 9.93915053550154,
+    "mean_states": 162.9
+  },
+  {
+    "dataset": "flights",
+    "size": 16,
+    "method": "identity",
+    "tasks": 5,
+    "completion_rate": 0.0,
+    "median_ms": null,
+    "mean_states": null
+  },
+  {
+    "dataset": "flights",
+    "size": 16,
+    "method": "residual",
+    "tasks": 5,
+    "completion_rate": 1.0,
+    "median_ms": 73.44688498415053,
+    "mean_states": 708.6
+  },
+  {
+    "dataset": "flights",
+    "size": 16,
+    "method": "rqdp",
+    "tasks": 5,
+    "completion_rate": 1.0,
+    "median_ms": 19.84007889404893,
+    "mean_states": 393.4
+  },
+  {
+    "dataset": "flights",
+    "size": 16,
+    "method": "rqdp_anytime",
+    "tasks": 5,
+    "completion_rate": 1.0,
+    "median_ms": 29.96240509673953,
+    "mean_states": 393.4
+  },
+  {
+    "dataset": "flights",
+    "size": 16,
+    "method": "static",
+    "tasks": 5,
+    "completion_rate": 1.0,
+    "median_ms": 365.8379151020199,
+    "mean_states": 4493.8
+  },
+  {
+    "dataset": "flights",
+    "size": 32,
+    "method": "identity",
+    "tasks": 2,
+    "completion_rate": 0.0,
+    "median_ms": null,
+    "mean_states": null
+  },
+  {
+    "dataset": "flights",
+    "size": 32,
+    "method": "residual",
+    "tasks": 2,
+    "completion_rate": 1.0,
+    "median_ms": 2708.009136491455,
+    "mean_states": 17516.5
+  },
+  {
+    "dataset": "flights",
+    "size": 32,
+    "method": "rqdp",
+    "tasks": 2,
+    "completion_rate": 1.0,
+    "median_ms": 240.01166655216366,
+    "mean_states": 3532.0
+  },
+  {
+    "dataset": "flights",
+    "size": 32,
+    "method": "rqdp_anytime",
+    "tasks": 2,
+    "completion_rate": 1.0,
+    "median_ms": 235.70952308364213,
+    "mean_states": 3532.0
+  },
+  {
+    "dataset": "flights",
+    "size": 32,
+    "method": "static",
+    "tasks": 2,
+    "completion_rate": 0.0,
+    "median_ms": null,
+    "mean_states": null
+  },
+  {
+    "dataset": "hospital",
+    "size": 4,
+    "method": "identity",
+    "tasks": 600,
+    "completion_rate": 1.0,
+    "median_ms": 2.713929512538016,
+    "mean_states": 15.215
+  },
+  {
+    "dataset": "hospital",
+    "size": 4,
+    "method": "residual",
+    "tasks": 600,
+    "completion_rate": 1.0,
+    "median_ms": 2.7312914608046412,
+    "mean_states": 11.59
+  },
+  {
+    "dataset": "hospital",
+    "size": 4,
+    "method": "rqdp",
+    "tasks": 600,
+    "completion_rate": 1.0,
+    "median_ms": 2.5347741320729256,
+    "mean_states": 10.915
+  },
+  {
+    "dataset": "hospital",
+    "size": 4,
+    "method": "rqdp_anytime",
+    "tasks": 600,
+    "completion_rate": 1.0,
+    "median_ms": 3.1964643858373165,
+    "mean_states": 21.925
+  },
+  {
+    "dataset": "hospital",
+    "size": 4,
+    "method": "static",
+    "tasks": 600,
+    "completion_rate": 1.0,
+    "median_ms": 1.3978049391880631,
+    "mean_states": 10.38
+  },
+  {
+    "dataset": "hospital",
+    "size": 8,
+    "method": "identity",
+    "tasks": 300,
+    "completion_rate": 1.0,
+    "median_ms": 61.51990941725671,
+    "mean_states": 306.24
+  },
+  {
+    "dataset": "hospital",
+    "size": 8,
+    "method": "residual",
+    "tasks": 300,
+    "completion_rate": 1.0,
+    "median_ms": 16.86719653662294,
+    "mean_states": 78.51
+  },
+  {
+    "dataset": "hospital",
+    "size": 8,
+    "method": "rqdp",
+    "tasks": 300,
+    "completion_rate": 1.0,
+    "median_ms": 14.699762919917703,
+    "mean_states": 74.28
+  },
+  {
+    "dataset": "hospital",
+    "size": 8,
+    "method": "rqdp_anytime",
+    "tasks": 300,
+    "completion_rate": 1.0,
+    "median_ms": 25.491938460618258,
+    "mean_states": 208.34
+  },
+  {
+    "dataset": "hospital",
+    "size": 8,
+    "method": "static",
+    "tasks": 300,
+    "completion_rate": 1.0,
+    "median_ms": 10.35650260746479,
+    "mean_states": 79.25
+  },
+  {
+    "dataset": "hospital",
+    "size": 16,
+    "method": "identity",
+    "tasks": 50,
+    "completion_rate": 0.0,
+    "median_ms": null,
+    "mean_states": null
+  },
+  {
+    "dataset": "hospital",
+    "size": 16,
+    "method": "residual",
+    "tasks": 50,
+    "completion_rate": 1.0,
+    "median_ms": 314.1645655268803,
+    "mean_states": 890.18
+  },
+  {
+    "dataset": "hospital",
+    "size": 16,
+    "method": "rqdp",
+    "tasks": 50,
+    "completion_rate": 1.0,
+    "median_ms": 232.05235495697707,
+    "mean_states": 842.44
+  },
+  {
+    "dataset": "hospital",
+    "size": 16,
+    "method": "rqdp_anytime",
+    "tasks": 50,
+    "completion_rate": 0.94,
+    "median_ms": 892.5356820691377,
+    "mean_states": 5268.382978723404
+  },
+  {
+    "dataset": "hospital",
+    "size": 16,
+    "method": "static",
+    "tasks": 50,
+    "completion_rate": 1.0,
+    "median_ms": 244.39511308446527,
+    "mean_states": 1151.62
+  },
+  {
+    "dataset": "hospital",
+    "size": 32,
+    "method": "identity",
+    "tasks": 25,
+    "completion_rate": 0.0,
+    "median_ms": null,
+    "mean_states": null
+  },
+  {
+    "dataset": "hospital",
+    "size": 32,
+    "method": "residual",
+    "tasks": 25,
+    "completion_rate": 0.24,
+    "median_ms": 3550.796133931726,
+    "mean_states": 6998.0
+  },
+  {
+    "dataset": "hospital",
+    "size": 32,
+    "method": "rqdp",
+    "tasks": 25,
+    "completion_rate": 0.36,
+    "median_ms": 3363.9903001021594,
+    "mean_states": 7569.555555555556
+  },
+  {
+    "dataset": "hospital",
+    "size": 32,
+    "method": "rqdp_anytime",
+    "tasks": 25,
+    "completion_rate": 0.0,
+    "median_ms": null,
+    "mean_states": null
+  },
+  {
+    "dataset": "hospital",
+    "size": 32,
+    "method": "static",
+    "tasks": 25,
+    "completion_rate": 0.32,
+    "median_ms": 2818.9675410976633,
+    "mean_states": 12029.25
+  }
+]

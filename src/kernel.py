@@ -110,7 +110,7 @@ class Kernel:
   ns=list(self.start[0]);z=[0]*self.J;r=self.start[2]
   remaining=set(range(len(truth)));cost=0;steps=0
   while not self.certain((tuple(ns),tuple(z),r)):
-   (bound,t),canonical=self.plan((tuple(ns),tuple(z),r))
+   decision,canonical=self.plan((tuple(ns),tuple(z),r));t=decision[-1]
    active=tuple(j for j,x in enumerate(canonical[1]) if x>=0)
    if self.mode=='residual':
     sig=self.signature(t,active,canonical[2]>0)

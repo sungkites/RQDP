@@ -21,4 +21,12 @@ Upstream input SHA-256 checksums:
 * `dirty.csv`: `1b5c1afa10aa0e7c20fd7e14d05c56772715b2771aa0f5fa67ed1709e1eecd46`
 * `clean.csv`: `0acfcfd8985b06fdd363965c9e8d9522c43e7589a93d79ae7dc311e1c37fdf3b`
 
-Both datasets informed method development. The evaluation is exploratory; the preserved split is not a fresh independent test set. The release supports reproduction from predicate inputs onward; reconstructing those inputs from private business records requires access to the original records.
+## Hospital and Beers predicates
+
+Hospital and Beers are released as predicate-level transformations of paired dirty and clean benchmark tables. A stable identifier hash assigns 20% of rows to development. Predicate correction patterns are learned only from this development portion. Evaluation-row dirty values form the initial predicate vector, development correction patterns generate candidate vectors, and the clean evaluation value is used only as the reference.
+
+Hospital contains 800 evaluation rows. Its predicates indicate emergency service, government ownership, and proprietary ownership. Beers contains 1,937 evaluation rows. Its predicates indicate alcohol by volume of at least 0.055, IPA style, and membership in a fixed western-state group. The preparation audit in `data/v16_preparation_audit.json` records split sizes, observed correction patterns, reference omissions, and coverage.
+
+## Scope
+
+All four datasets informed method development. The preserved splits are not fresh independent test sets. Hospital and Beers are paired dirty/clean benchmarks rather than naturally independent source systems. The release supports reproduction from predicate inputs onward; reconstructing asset predicates from private business records requires access to the original records.

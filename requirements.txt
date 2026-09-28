@@ -1,1 +1,2 @@
-# Python 3.12; all experiment code uses the Python standard library.
+# Python 3.12. Experiment runners use the standard library; figures use Matplotlib.
+matplotlib>=3.8

@@ -21,3 +21,11 @@ Worst-case cost is evaluated over all allowed states per workload, then averaged
 Archived measurements used an Intel Core i7-10750H, 15.86 GiB RAM, Windows 11, and Python 3.12.14. Main solves use a 10-second soft deadline and a 200,000-expanded-state limit; scale and parameter solves use 3 seconds and the same state limit. Deadline checks are periodic. Resource-limit outcomes remain in the archived files.
 
 Scale tests reconstruct records from complete size-four batches before forming sizes 16, 32, 64, and 128. Parameter tests use original size-sixteen batches, omission allowances 0, 1, and 2, and either uniform or precomputed heterogeneous costs. The historical heterogeneous cost assignment is preserved numerically without releasing identifiers.
+
+## Expanded four-dataset evaluation
+
+The expanded evaluation uses Flights, assets, Hospital, and Beers. A fixed 20% development split supplies predicate correction patterns for Hospital and Beers; evaluation references are not used to select correction patterns. Complete batches are formed at sizes 4, 8, 16, and 32. Size-four quality workloads use thresholds 1–4. Efficiency comparisons include record-level DP, static type compression, residual compression, RQDP, and RQDP-A. RQDP-A minimizes the same worst-case completion cost as RQDP and compares unresolved-query area only when primary costs tie.
+
+Each solve has a five-second and 300,000-expanded-state limit. Size-four and size-eight timings use three repetitions; larger workloads use one. Independent tasks are distributed across processes, while each solve uses one CPU core. Archived timings in `results/v16/` were measured on a dual Intel Xeon Gold 6330 server with 100 CPU cores available, 117 GiB RAM, and Python 3.12.3. The A100 GPU installed in the host was not used.
+
+The controlled study has four count queries and 16, 24, 32, or 48 records. Zero to three query dimensions are made determinable from their count bounds while initial record types continue to differ on those dimensions. Ten fixed seeds, omission bounds 0–2, and unit or heterogeneous record costs are evaluated. Resource-limit runs remain in the results. Reported speedups marked as lower bounds use the observed time to the limit for censored static runs.

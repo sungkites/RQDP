@@ -1,0 +1,41 @@
+{
+  "created": "2026-09-28 10:43:35",
+  "quality": "All complete size-4 batches from Flights, assets, Hospital and Beers; thresholds k=1..4; radius 1; unit costs; no outcome-based task removal.",
+  "efficiency": "All complete size 4/8/16/32 batches; five exact variants; three serial-equivalent repeats at sizes 4/8 and one run at 16/32; 5 s and 300000-state soft limits.",
+  "controlled": "10 fixed seeds across n, query count, initial type count, omission radius and cost regime; all failures retained.",
+  "public_split": "SHA-256 identifier split fixed before evaluation. Candidate correction patterns use development rows only.",
+  "timing": "Solver construction plus first action and exact primary value. Independent tasks are process-parallel; each task uses one process.",
+  "hardware_note": "The algorithm is CPU-bound. The A100 host is used for its multi-core CPU; no GPU acceleration is claimed.",
+  "methods": [
+    "ig",
+    "ec2",
+    "pairs",
+    "asr",
+    "minimax_rollout",
+    "minimax_exact",
+    "rqdp",
+    "rqdp_anytime"
+  ],
+  "source_sha256": {
+    "anytime.py": "898ca99d16644bd9d56386a4126ac0ab0ac29e3152676da85fa9095264b5f787",
+    "baselines.py": "e68eb3ad1f2444cdf262389fefd33b70e341c2f25e5948eaaff0a091c57ddffe",
+    "bench.py": "afdc83c1303cba32def372cbc43dadd1c6096aac53ae2f33765d5f2ef146aeb0",
+    "check.py": "6edf9d9f108be53f57296546a99cf5c3574f61d2b26255aa9eedc62f501711fc",
+    "check_dominance.py": "43acf49ba5caf351b924860f7555c0448adf8bc5913c2521c15cdd770bea6dcd",
+    "direct.py": "7e1185c6b8ccc0686cea20cdfd51cdea6545c0f167b6c4406315a02979ba67fc",
+    "dominance.py": "21f1df52abd6cfc27f92721df65cde952579136579e8a6700b532315cee497b8",
+    "final_bench.py": "2bd0e8e049c191a979e43ff8baad253ba8529a79899629691b1253509f44ffd3",
+    "kernel.py": "4594d3513b74042cd83fbd72b1fdb95fbed1acc3353e85293e4ddec8f78d04ab",
+    "metrics.py": "c644c03405c5be66192152ce5b5d0fac8c8c1c7f25fa2d4bb2549f4593692ba5",
+    "quality.py": "a0b8be659e3acca5beff787b6a36102e8c88d96d3cad01ee5d1d81d52036f978",
+    "robust.py": "811d37a2c1a52844bf679b81fce7a8b9ccaaf81a4dbdb99777ab89ee756e773b",
+    "robust_baselines.py": "86d299def6aef6eb813b734b6e924a359cd9f0fe16d169cc88fbfc396e66d9d1",
+    "solver.py": "6f61f127d8ba77f765fbf95be22951fde9f1e283045d65f7509711ad4a6ce7c0",
+    "summarize.py": "2115b99c3302e94f5d26fcc172a066716a64ab1f6029da1a5545b9564b6c8531",
+    "v16_experiments.py": "75632f925dda32ce0bd3240eb40bab95eee3f083665a9ab7866747155f553918",
+    "v16_figures.py": "f98d4d13a84a00512fe863f61047e365471e83640ecd394a106f4bfb1b472e2c",
+    "v16_prepare.py": "c4e73a11fc54ce8ce50bdb8ffcae4e9482bf02a75e5a13051c10bac0e1dea685",
+    "v16_structured.py": "fb7eee6fe280ddd7d18f4fd2b51139ef2880c66b810021a7d4d3d6fa9b2713b4",
+    "workloads.py": "a0d37ef76bb74d3b59966a5e7ca896664d3770011ffe790f13d4d9096e282338"
+  }
+}

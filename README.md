@@ -2,53 +2,68 @@
 
 Research code and predicate-level data accompanying **Adaptive Verification of Multi-source Data for Reliable Count Queries** (Chinese title: 面向可信计数查询的多源数据自适应核验方法).
 
-RQDP computes an exact verification policy that minimizes worst-case inspection cost for multiple count-threshold queries. Records may share candidate predicate sets, and a bounded number of true predicate vectors may fall outside those sets. As queries become determined, RQDP projects onto the remaining queries, merges equivalent record types, and removes dominated feedback branches. Actual verification retains complete feedback for updating the omission allowance.
+RQDP computes an exact verification policy that minimizes worst-case inspection cost for multiple count-threshold queries. Records may share candidate predicate sets, and a bounded number of true predicate vectors may fall outside those sets. As queries become determined, RQDP projects onto the remaining queries, merges equivalent record types, and removes dominated feedback branches. RQDP-A preserves this primary optimum and uses unresolved-query area to select among cost-optimal actions.
 
-## Abstract
+## Current evaluation
 
-Conflicting multi-source records can leave query answers uncertain, while inspecting every record incurs unnecessary cost. Residual Query Dynamic Programming (RQDP) computes minimum worst-case-cost verification policies for multiple count-threshold queries sharing records. The model permits a bounded number of true predicate vectors to be absent from their candidate sets. RQDP initially groups records with identical candidates and costs, then updates the grouping as queries become determined. Feedback branches with identical effects on the remaining queries are reduced using dominance in continuation cost. Full feedback is retained during policy execution. Under a valid omission bound and correct verification feedback, these reductions preserve optimal cost and reliable answers. Experiments on Flights and asset-register predicate data show speedups of 11.19 and 35.11 over record-level dynamic programming for batches of eight records. On Flights, RQDP reduces computation time by a further 55.5% relative to static compression and reduces mean worst-case inspection cost by 5.33% relative to the implemented EC², ASR, and Pairs selection rules. These results show how shared record effects on unresolved queries can reduce the cost of exact policy computation.
+The expanded evaluation covers Flights, Hospital, Beers, and de-identified asset predicates. At eight records per workload, RQDP is 4.06–45.09 times faster than record-level dynamic programming. RQDP-A improves or matches RQDP's F1-cost area on all four datasets and attains the highest area on Beers. Controlled workloads vary the number of already resolved query dimensions to show when residual equivalence produces additional compression.
 
-## Run
+The timing runs used a dual Intel Xeon Gold 6330 server with 100 CPU cores available and 117 GiB RAM. Independent tasks were distributed across 72 processes; each solve used one CPU core. The host also contained an NVIDIA A100, but the exact search is CPU-bound and did not use the GPU.
 
-Python 3.12 is recommended. No third-party Python dependencies or database connection are required.
+## Reproduce the expanded evaluation
+
+Python 3.12 is recommended. The experiments require no database connection and use only the Python standard library. Figure generation also requires Matplotlib.
 
 ```bash
-python reproduce.py check       # independent exhaustive correctness checks
-python reproduce.py quality     # all size-four threshold-grid quality curves
-python reproduce.py primary     # all size-four/eight compression comparisons
-python reproduce.py baselines   # natural-candidate verification-cost comparisons
-python reproduce.py scale       # larger batches; resource limits are retained
-python reproduce.py additional  # heterogeneous costs and omission-bound sensitivity
-python src/summarize.py         # summarize the archived main measurements
+python src/v16_experiments.py check
+python src/v16_experiments.py quality --workers 32
+python src/v16_experiments.py efficiency --workers 32
+python src/v16_structured.py 32
+python src/v16_figures.py
 ```
 
-Fresh outputs are written to `results/runs/`. Primary, scale, additional, and quality runs resume existing output files; use a clean output directory for an independent rerun. Run timing experiments serially, without other benchmarks running concurrently. The baseline runner replaces its own output file. Larger experiments may take substantially longer than the correctness and quality checks.
+The figure command writes PDF, SVG, PNG, and source-data CSV files to `artifacts/figures/`. Archived measurements are already available in `results/v16/`; rerunning timing experiments on another machine will not reproduce the same wall-clock values exactly.
+
+The earlier two-dataset evaluation remains available through `reproduce.py`:
+
+```bash
+python reproduce.py check
+python reproduce.py quality
+python reproduce.py primary
+python reproduce.py baselines
+python reproduce.py scale
+python reproduce.py additional
+```
 
 ## Contents
 
 | Path | Contents |
 | --- | --- |
 | `src/dominance.py` | Full RQDP implementation |
-| `src/kernel.py` | Identity, static, and residual compression variants |
-| `src/robust.py` | Independent explicit minimax reference and symbolic implementation |
+| `src/kernel.py` | Record-level, static, and residual compression variants |
+| `src/anytime.py` | RQDP-A lexicographic early-certification tie-break |
+| `src/robust.py` | Independent explicit minimax reference |
 | `src/solver.py`, `src/robust_baselines.py` | Adapted baseline selection rules |
+| `src/v16_experiments.py` | Four-dataset quality and efficiency experiments |
+| `src/v16_structured.py` | Controlled residual-equivalence study |
+| `src/v16_figures.py` | Five manuscript figures and source-data tables |
 | `data/` | Identifier-free predicate candidates and evaluation references |
-| `results/paper/` | Archived numerical measurements used in the manuscript |
-| `paper/abstract_zh.md` | Chinese title, abstract, and keywords |
+| `results/paper/` | Archived measurements for the earlier manuscript |
+| `results/v16/` | Archived measurements for the expanded manuscript |
+| `artifacts/figures/` | Manuscript figures and plotted source data |
 | `DATA_CARD.md` | Provenance, preprocessing, privacy, and interpretation |
 | `PROTOCOL.md` | Workloads, metrics, and measurement settings |
 
-The reference state is used as an evaluation oracle, not as input to policy selection. Archived timings are measurements on the original machine, not expected runtimes on every machine. Baseline rules are adapted to the same allowed states, record feedback, and stopping condition; they are not runs of the original authors' complete systems. RQDP targets worst-case verification cost and exact computation efficiency, not uniformly best partial-budget F1 or mean observed cost.
+The reference state is used as an evaluation oracle, not as input to policy selection. Baseline rules are adapted to the same allowed states, record feedback, and stopping condition; they are not runs of the original authors' complete systems. RQDP targets minimum worst-case verification cost and exact planning efficiency. RQDP-A adds a secondary objective for earlier certification, but it is not expected to dominate task-specific heuristics on every partial-budget quality curve.
 
-## Archived manuscript results
+## Expanded manuscript results
 
-| Manuscript result | File in `results/paper/` |
+| Manuscript result | File in `results/v16/` |
 | --- | --- |
-| Table 1 and Figure 2 | `final_primary.jsonl`; summary in `primary_summary.csv` |
-| Table 2 | `baselines.jsonl` (size-eight, natural-candidate, unit-cost rows); RQDP values also appear in `final_primary.jsonl` |
-| Table 3 and Figure 3 | `quality_summary.json` and `quality_paths.jsonl` |
-| Larger-batch and parameter results | `final_scale.jsonl` and `additional.jsonl` |
+| Exactness checks and experiment settings | `protocol.json` |
+| F1 and confirmation trajectories | `quality_paths.jsonl`; summary in `quality_summary.json` |
+| Planning-time and scale comparisons | `efficiency.jsonl`; summary in `efficiency_summary.json` |
+| Controlled residual-equivalence study | `structured.jsonl` |
+| Additional random workloads retained for audit | `synthetic.jsonl` |
 
-The release check is recorded in `results/release_validation.json`. It confirms that the released predicate inputs preserve the 542 original batches at sizes 4, 8, and 16; that all 465 main-task optimal values, 4,650 baseline cost rows, and the quality summary reproduce; and that the released asset schema contains numeric fields only. These checks validate the released research artifact, not an independent dataset.
-
-This repository is a research artifact for a manuscript; it does not imply publication or acceptance. Funding: Zhejiang Province University Laboratory Research Project, grant ZB202677.
+The release contains a research artifact for a manuscript; it does not imply publication or acceptance. Funding: Zhejiang Province University Laboratory Research Project, grant ZB202677.

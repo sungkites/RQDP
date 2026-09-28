@@ -2,28 +2,29 @@
 
 对应论文：**面向可信计数查询的多源数据自适应核验方法**。
 
-RQDP（剩余查询动态规划）面向多个共享记录的计数阈值查询，求解最坏核验成本最小的策略。随着查询答案确定，算法按剩余查询重新合并记录类型，并利用反馈支配减少重复计算。
+RQDP（剩余查询动态规划）面向多个共享记录的计数阈值查询，求解最坏核验成本最小的策略。查询答案确定后，算法按剩余查询重新合并记录类型，并利用反馈支配减少重复计算。RQDP-A 保持最小最坏成本不变，以未确定查询面积选择能够更早确认答案的并列最优动作。
 
 ## 数据与隐私
 
-- 资产数据包含 1,163 个对象的谓词抽象。仅保留候选状态、参考状态和实验成本，不含姓名、联系方式、位置文本、原始资产编号或数据库连接信息。
-- Flights 数据包含原实验使用的 80 个航班的谓词抽象。
-- 数据顺序、候选状态和成本保留原实验设置；原始业务台账不在仓库内。
-- 原始实验结果保存在 `results/paper/`，新运行结果写入 `results/runs/`。
+- 评价数据包括 Flights、Hospital、Beers 和资产谓词抽象。
+- 资产数据只保留候选状态、参考状态和实验成本，不含姓名、联系方式、位置、部门、原始资产编号和数据库连接信息。
+- Hospital 和 Beers 采用固定 20% 开发集学习谓词纠正模式，其余记录用于评价。
+- 四套数据的谓词输入保存在 `data/`，扩展实验结果保存在 `results/v16/`。
 
-## 复现
+## 扩展实验复现
 
-使用 Python 3.12，无须连接数据库或安装第三方依赖。
+实验使用 Python 3.12，无须连接数据库。前四项只依赖标准库；生成图片需要 Matplotlib。
 
 ```bash
-python reproduce.py check
-python reproduce.py quality
-python reproduce.py primary
-python reproduce.py baselines
-python reproduce.py scale
-python reproduce.py additional
+python src/v16_experiments.py check
+python src/v16_experiments.py quality --workers 32
+python src/v16_experiments.py efficiency --workers 32
+python src/v16_structured.py 32
+python src/v16_figures.py
 ```
 
-六个命令分别对应正确性检查、查询质量、压缩对照、核验策略对照、规模实验和参数实验。计时实验请单独串行运行。
+图片及对应的绘图数据写入 `artifacts/figures/`。计时结果与硬件有关，仓库中的 `results/v16/` 是论文使用的归档结果。
 
-详见 [英文说明](README.md)、[数据说明](DATA_CARD.md)和[实验设置](PROTOCOL.md)。中文摘要见 [abstract_zh.md](paper/abstract_zh.md)。原始台账参考值不等同于独立现场核实结果；实验使用的是同一反馈模型下适配的文献选择规则。
+规模 8 时，RQDP 相对逐记录动态规划加速 4.06—45.09 倍。RQDP-A 在四个数据集上的 F1—成本面积均不低于 RQDP，并在 Beers 上取得最高值。受控任务进一步用于说明：只有当查询推进后出现新的剩余等价类型时，动态压缩才会明显优于静态分组。
+
+详见 [英文说明](README.md)、[数据说明](DATA_CARD.md)和[实验设置](PROTOCOL.md)。原始业务台账不在仓库内，资产参考值也不等同于独立现场核实结果。文献方法是在统一状态、反馈和停止条件下实现的选择规则，不代表原作者完整系统的直接运行结果。
