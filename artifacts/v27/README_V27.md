@@ -10,6 +10,7 @@ This version adds **Residual Bound Greedy (RBG)** as a fast verification policy 
 - `Overleaf_RQDP_V27/main.pdf`: locally compiled review PDF (25 pages). The PDF is **not** included inside the Overleaf ZIP.
 
 All heatmaps and bar charts have been replaced with line-based analyses. The revised manuscript contains 16 figures and 6 three-line tables. Figures 1–3 are method diagrams; Figures 4–16 display experimental results.
+The repository artifact includes the final PDFs of all 16 figures; the revised line-figure generator is `figures_v27.py`.
 
 ## New experimental records
 
