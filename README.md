@@ -1,10 +1,12 @@
 # RQDP: Residual Query Dynamic Programming
 
-Research code and predicate-level data accompanying **Adaptive Verification of Multi-source Data for Reliable Count Queries** (Chinese title: 面向可信计数查询的多源数据自适应核验方法).
+Research code and predicate-level data accompanying **Adaptive Verification for Reliable Count Queries over Conflicting Data** (Chinese title: 面向可信计数查询的冲突数据自适应核验方法).
 
 RQDP computes an exact verification policy that minimizes worst-case inspection cost for multiple count-threshold queries. Records may share candidate predicate sets, and a bounded number of true predicate vectors may fall outside those sets. As queries become determined, RQDP projects onto the remaining queries, merges equivalent record types, and removes dominated feedback branches. RQDP-A preserves this primary optimum and uses unresolved-query area to select among cost-optimal actions.
 
 The V27 extension adds **Residual Bound Greedy (RBG)**, a fast action-selection policy for larger tasks. RBG scores immediate feedback by how much it reduces count ranges that cross query thresholds. It does not guarantee minimum verification cost, but every released answer still passes the original exact certification test. Code, numerical results, line-based figures, and reproduction steps are in [`artifacts/v27/`](artifacts/v27/README_V27.md).
+
+The current manuscript revision changes the title, wording, citations, and journal layout. Its algorithms and reported measurements use the same released experimental code and data; no new experimental run was added after the V27 release.
 
 ## Current evaluation
 
