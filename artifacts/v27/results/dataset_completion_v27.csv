@@ -1,0 +1,17 @@
+size,dataset,tasks,rbg_complete,rqdp_complete
+8,flights,60,60,60
+8,assets,180,180,180
+8,hospital,180,180,180
+8,beers,180,180,180
+16,flights,30,30,25
+16,assets,180,180,180
+16,hospital,180,180,90
+16,beers,180,180,180
+24,flights,18,18,12
+24,assets,180,180,171
+24,hospital,180,180,42
+24,beers,180,180,167
+32,flights,12,12,8
+32,assets,180,180,157
+32,hospital,150,150,0
+32,beers,180,180,158

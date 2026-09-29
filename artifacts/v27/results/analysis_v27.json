@@ -1,0 +1,441 @@
+{
+  "new_quality_workloads": 3976,
+  "scaling_condition_runs": 2250,
+  "rbg_reference_paths_checked": 2242,
+  "exact_completed": 1790,
+  "quality_summary": [
+    {
+      "dataset": "assets",
+      "method": "EC2",
+      "workloads": 1160,
+      "f1_cost_auc": 0.8394588797742976,
+      "mean_reference_cost": 2.5948275862068964,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "assets",
+      "method": "PAIRS",
+      "workloads": 1160,
+      "f1_cost_auc": 0.8314811180678857,
+      "mean_reference_cost": 2.627586206896552,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "assets",
+      "method": "RQDP",
+      "workloads": 1160,
+      "f1_cost_auc": 0.7814272621634395,
+      "mean_reference_cost": 2.578448275862069,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "assets",
+      "method": "RQDP-A",
+      "workloads": 1160,
+      "f1_cost_auc": 0.7814272621634395,
+      "mean_reference_cost": 2.578448275862069,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "beers",
+      "method": "EC2",
+      "workloads": 1936,
+      "f1_cost_auc": 0.7696239999132367,
+      "mean_reference_cost": 2.822830578512397,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "beers",
+      "method": "PAIRS",
+      "workloads": 1936,
+      "f1_cost_auc": 0.7696239999132367,
+      "mean_reference_cost": 2.822830578512397,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "beers",
+      "method": "RQDP",
+      "workloads": 1936,
+      "f1_cost_auc": 0.650417203597594,
+      "mean_reference_cost": 2.977789256198347,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "beers",
+      "method": "RQDP-A",
+      "workloads": 1936,
+      "f1_cost_auc": 0.7717897112427772,
+      "mean_reference_cost": 2.7980371900826446,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "flights",
+      "method": "EC2",
+      "workloads": 80,
+      "f1_cost_auc": 0.6852441817514481,
+      "mean_reference_cost": 2.2125,
+      "mean_worst_cost": 3.075
+    },
+    {
+      "dataset": "flights",
+      "method": "PAIRS",
+      "workloads": 80,
+      "f1_cost_auc": 0.6781753012648462,
+      "mean_reference_cost": 2.275,
+      "mean_worst_cost": 3.075
+    },
+    {
+      "dataset": "flights",
+      "method": "RQDP",
+      "workloads": 80,
+      "f1_cost_auc": 0.4484478807885941,
+      "mean_reference_cost": 2.375,
+      "mean_worst_cost": 3.075
+    },
+    {
+      "dataset": "flights",
+      "method": "RQDP-A",
+      "workloads": 80,
+      "f1_cost_auc": 0.593786042895095,
+      "mean_reference_cost": 2.3125,
+      "mean_worst_cost": 3.075
+    },
+    {
+      "dataset": "hospital",
+      "method": "EC2",
+      "workloads": 800,
+      "f1_cost_auc": 0.5528763427013133,
+      "mean_reference_cost": 3.16375,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "hospital",
+      "method": "PAIRS",
+      "workloads": 800,
+      "f1_cost_auc": 0.49440364011482535,
+      "mean_reference_cost": 3.46,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "hospital",
+      "method": "RQDP",
+      "workloads": 800,
+      "f1_cost_auc": 0.39407337881502563,
+      "mean_reference_cost": 3.38125,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "hospital",
+      "method": "RQDP-A",
+      "workloads": 800,
+      "f1_cost_auc": 0.4202811660783662,
+      "mean_reference_cost": 3.3775,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "assets",
+      "method": "RBG",
+      "workloads": 1160,
+      "f1_cost_auc": 0.7814272621634395,
+      "mean_reference_cost": 2.5775862068965516,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "beers",
+      "method": "RBG",
+      "workloads": 1936,
+      "f1_cost_auc": 0.7339392252611666,
+      "mean_reference_cost": 2.946797520661157,
+      "mean_worst_cost": 4.0
+    },
+    {
+      "dataset": "flights",
+      "method": "RBG",
+      "workloads": 80,
+      "f1_cost_auc": 0.6673221476230885,
+      "mean_reference_cost": 2.3125,
+      "mean_worst_cost": 3.1875
+    },
+    {
+      "dataset": "hospital",
+      "method": "RBG",
+      "workloads": 800,
+      "f1_cost_auc": 0.39407337881502563,
+      "mean_reference_cost": 3.38125,
+      "mean_worst_cost": 4.0
+    }
+  ],
+  "scaling_summary": [
+    {
+      "size": 8,
+      "tasks": 600,
+      "exact_completed": 600,
+      "rqdp_completion_rate": 1.0,
+      "rbg_completion_rate": 1.0,
+      "median_rbg_first_action_ms": 0.48160000005736947,
+      "median_rqdp_first_action_ms_completed": 4.972650000127032,
+      "median_paired_speedup_completed": 11.701296795758903,
+      "mean_ref_cost_difference_completed": 0.15217391304347827,
+      "mean_normalized_ref_gap_completed": 0.022174594700208976,
+      "paired_valid_paths": 598,
+      "equal_reference_paths": 511,
+      "rbg_optimal_worst_count": 586,
+      "mean_worst_excess": 0.05,
+      "max_worst_excess": 4
+    },
+    {
+      "size": 16,
+      "tasks": 570,
+      "exact_completed": 475,
+      "rqdp_completion_rate": 0.8333333333333334,
+      "rbg_completion_rate": 1.0,
+      "median_rbg_first_action_ms": 0.49804999980551656,
+      "median_rqdp_first_action_ms_completed": 30.39560000070196,
+      "median_paired_speedup_completed": 64.98243760301443,
+      "mean_ref_cost_difference_completed": 0.14799154334038056,
+      "mean_normalized_ref_gap_completed": 0.00954658007949657,
+      "paired_valid_paths": 473,
+      "equal_reference_paths": 408
+    },
+    {
+      "size": 24,
+      "tasks": 558,
+      "exact_completed": 392,
+      "rqdp_completion_rate": 0.7025089605734767,
+      "rbg_completion_rate": 1.0,
+      "median_rbg_first_action_ms": 0.5939000002399553,
+      "median_rqdp_first_action_ms_completed": 117.69259999982751,
+      "median_paired_speedup_completed": 166.72556788893027,
+      "mean_ref_cost_difference_completed": 0.04871794871794872,
+      "mean_normalized_ref_gap_completed": 0.0041395914388578274,
+      "paired_valid_paths": 390,
+      "equal_reference_paths": 358
+    },
+    {
+      "size": 32,
+      "tasks": 522,
+      "exact_completed": 323,
+      "rqdp_completion_rate": 0.6187739463601533,
+      "rbg_completion_rate": 1.0,
+      "median_rbg_first_action_ms": 0.6109500009188196,
+      "median_rqdp_first_action_ms_completed": 34.59060000022873,
+      "median_paired_speedup_completed": 75.75149528653283,
+      "mean_ref_cost_difference_completed": 0.0529595015576324,
+      "mean_normalized_ref_gap_completed": 0.002015811729246945,
+      "paired_valid_paths": 321,
+      "equal_reference_paths": 309
+    }
+  ],
+  "scaling_intervals": [
+    {
+      "size": 8,
+      "paired_speedup_95_interval": [
+        10.0685,
+        11.7013,
+        14.1388
+      ],
+      "mean_normalized_reference_gap_95_interval": [
+        0.0095,
+        0.0219,
+        0.0375
+      ]
+    },
+    {
+      "size": 16,
+      "paired_speedup_95_interval": [
+        50.8463,
+        64.9824,
+        79.8866
+      ],
+      "mean_normalized_reference_gap_95_interval": [
+        -0.0037,
+        0.0096,
+        0.0214
+      ]
+    },
+    {
+      "size": 24,
+      "paired_speedup_95_interval": [
+        101.2283,
+        168.3026,
+        219.3369
+      ],
+      "mean_normalized_reference_gap_95_interval": [
+        -0.0068,
+        0.0044,
+        0.0141
+      ]
+    },
+    {
+      "size": 32,
+      "paired_speedup_95_interval": [
+        42.8478,
+        75.7515,
+        88.7544
+      ],
+      "mean_normalized_reference_gap_95_interval": [
+        -0.0075,
+        0.0025,
+        0.0114
+      ]
+    }
+  ],
+  "dataset_completion": [
+    {
+      "size": 8,
+      "dataset": "flights",
+      "tasks": 60,
+      "rbg_complete": 60,
+      "rqdp_complete": 60
+    },
+    {
+      "size": 8,
+      "dataset": "assets",
+      "tasks": 180,
+      "rbg_complete": 180,
+      "rqdp_complete": 180
+    },
+    {
+      "size": 8,
+      "dataset": "hospital",
+      "tasks": 180,
+      "rbg_complete": 180,
+      "rqdp_complete": 180
+    },
+    {
+      "size": 8,
+      "dataset": "beers",
+      "tasks": 180,
+      "rbg_complete": 180,
+      "rqdp_complete": 180
+    },
+    {
+      "size": 16,
+      "dataset": "flights",
+      "tasks": 30,
+      "rbg_complete": 30,
+      "rqdp_complete": 25
+    },
+    {
+      "size": 16,
+      "dataset": "assets",
+      "tasks": 180,
+      "rbg_complete": 180,
+      "rqdp_complete": 180
+    },
+    {
+      "size": 16,
+      "dataset": "hospital",
+      "tasks": 180,
+      "rbg_complete": 180,
+      "rqdp_complete": 90
+    },
+    {
+      "size": 16,
+      "dataset": "beers",
+      "tasks": 180,
+      "rbg_complete": 180,
+      "rqdp_complete": 180
+    },
+    {
+      "size": 24,
+      "dataset": "flights",
+      "tasks": 18,
+      "rbg_complete": 18,
+      "rqdp_complete": 12
+    },
+    {
+      "size": 24,
+      "dataset": "assets",
+      "tasks": 180,
+      "rbg_complete": 180,
+      "rqdp_complete": 171
+    },
+    {
+      "size": 24,
+      "dataset": "hospital",
+      "tasks": 180,
+      "rbg_complete": 180,
+      "rqdp_complete": 42
+    },
+    {
+      "size": 24,
+      "dataset": "beers",
+      "tasks": 180,
+      "rbg_complete": 180,
+      "rqdp_complete": 167
+    },
+    {
+      "size": 32,
+      "dataset": "flights",
+      "tasks": 12,
+      "rbg_complete": 12,
+      "rqdp_complete": 8
+    },
+    {
+      "size": 32,
+      "dataset": "assets",
+      "tasks": 180,
+      "rbg_complete": 180,
+      "rqdp_complete": 157
+    },
+    {
+      "size": 32,
+      "dataset": "hospital",
+      "tasks": 150,
+      "rbg_complete": 150,
+      "rqdp_complete": 0
+    },
+    {
+      "size": 32,
+      "dataset": "beers",
+      "tasks": 180,
+      "rbg_complete": 180,
+      "rqdp_complete": 158
+    }
+  ],
+  "rotated_timing": [
+    {
+      "size": 8,
+      "order": "all",
+      "pairs": 300,
+      "rqdp_completed": 300,
+      "median_paired_speedup": 7.63748623236631
+    },
+    {
+      "size": 8,
+      "order": "rbg/rqdp",
+      "pairs": 139,
+      "rqdp_completed": 139,
+      "median_paired_speedup": 7.718175584099133
+    },
+    {
+      "size": 8,
+      "order": "rqdp/rbg",
+      "pairs": 161,
+      "rqdp_completed": 161,
+      "median_paired_speedup": 7.312515353733058
+    },
+    {
+      "size": 16,
+      "order": "all",
+      "pairs": 285,
+      "rqdp_completed": 285,
+      "median_paired_speedup": 9.833333309874144
+    },
+    {
+      "size": 16,
+      "order": "rbg/rqdp",
+      "pairs": 150,
+      "rqdp_completed": 150,
+      "median_paired_speedup": 7.9544075593983505
+    },
+    {
+      "size": 16,
+      "order": "rqdp/rbg",
+      "pairs": 135,
+      "rqdp_completed": 135,
+      "median_paired_speedup": 15.842785327193166
+    }
+  ]
+}

@@ -4,6 +4,8 @@ Research code and predicate-level data accompanying **Adaptive Verification of M
 
 RQDP computes an exact verification policy that minimizes worst-case inspection cost for multiple count-threshold queries. Records may share candidate predicate sets, and a bounded number of true predicate vectors may fall outside those sets. As queries become determined, RQDP projects onto the remaining queries, merges equivalent record types, and removes dominated feedback branches. RQDP-A preserves this primary optimum and uses unresolved-query area to select among cost-optimal actions.
 
+The V27 extension adds **Residual Bound Greedy (RBG)**, a fast action-selection policy for larger tasks. RBG scores immediate feedback by how much it reduces count ranges that cross query thresholds. It does not guarantee minimum verification cost, but every released answer still passes the original exact certification test. Code, numerical results, line-based figures, and reproduction steps are in [`artifacts/v27/`](artifacts/v27/README_V27.md).
+
 ## Current evaluation
 
 The expanded evaluation covers Flights, Hospital, Beers, and de-identified asset predicates. At eight records per workload, RQDP is 4.06–45.09 times faster than record-level dynamic programming. RQDP-A improves or matches RQDP's F1-cost area on all four datasets and attains the highest area on Beers. Controlled workloads vary the number of already resolved query dimensions to show when residual equivalence produces additional compression.

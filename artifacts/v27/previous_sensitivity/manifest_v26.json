@@ -1,0 +1,25 @@
+{
+  "dataset_batches": {
+    "assets": 30,
+    "beers": 30,
+    "flights": 10,
+    "hospital": 30
+  },
+  "selection": "SHA-256 sort of dataset, category, and batch index; first 30 per dataset or all if fewer",
+  "size": 8,
+  "thresholds": "4 for every query",
+  "radii": [
+    0,
+    1,
+    2
+  ],
+  "costs": [
+    "unit",
+    "released fixed cost_h"
+  ],
+  "repeats": 3,
+  "limits": "3 seconds and 200000 expanded states per solve",
+  "timing": "solver construction plus the first completed optimal value and action",
+  "reference_used_for_selection": false,
+  "results": 5400
+}

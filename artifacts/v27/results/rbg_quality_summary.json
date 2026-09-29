@@ -1,0 +1,190 @@
+[
+  {
+    "dataset": "assets",
+    "method": "rbg",
+    "workloads": 1160,
+    "outputs": 2320,
+    "mean_reference_cost": 2.5775862068965516,
+    "mean_worst_cost": 4.0,
+    "f1_cost_auc": 0.7814272621634395,
+    "coverage_cost_auc": 0.39536637931034485,
+    "curve": [
+      {
+        "budget": 0,
+        "precision": 1.0,
+        "recall": 0.6304347826086957,
+        "f1": 0.7733333333333333,
+        "coverage": 0.0375
+      },
+      {
+        "budget": 1,
+        "precision": 1.0,
+        "recall": 0.6376811594202898,
+        "f1": 0.7787610619469026,
+        "coverage": 0.2771551724137931
+      },
+      {
+        "budget": 2,
+        "precision": 1.0,
+        "recall": 0.644927536231884,
+        "f1": 0.7841409691629956,
+        "coverage": 0.5168103448275863
+      },
+      {
+        "budget": 3,
+        "precision": 1.0,
+        "recall": 0.6521739130434783,
+        "f1": 0.7894736842105263,
+        "coverage": 0.75
+      },
+      {
+        "budget": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "coverage": 1.0
+      }
+    ]
+  },
+  {
+    "dataset": "beers",
+    "method": "rbg",
+    "workloads": 1936,
+    "outputs": 5808,
+    "mean_reference_cost": 2.946797520661157,
+    "mean_worst_cost": 4.0,
+    "f1_cost_auc": 0.7339392252611666,
+    "coverage_cost_auc": 0.5877238292011019,
+    "curve": [
+      {
+        "budget": 0,
+        "precision": 1.0,
+        "recall": 0.37541686517389233,
+        "f1": 0.5458953931416696,
+        "coverage": 0.37431129476584024
+      },
+      {
+        "budget": 1,
+        "precision": 1.0,
+        "recall": 0.5721772272510719,
+        "f1": 0.7278787878787878,
+        "coverage": 0.5340909090909091
+      },
+      {
+        "budget": 2,
+        "precision": 1.0,
+        "recall": 0.6774654597427346,
+        "f1": 0.8077250781028117,
+        "coverage": 0.6768250688705234
+      },
+      {
+        "budget": 3,
+        "precision": 1.0,
+        "recall": 0.7455931395902811,
+        "f1": 0.8542576419213974,
+        "coverage": 0.765668044077135
+      },
+      {
+        "budget": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "coverage": 1.0
+      }
+    ]
+  },
+  {
+    "dataset": "flights",
+    "method": "rbg",
+    "workloads": 80,
+    "outputs": 160,
+    "mean_reference_cost": 2.3125,
+    "mean_worst_cost": 3.1875,
+    "f1_cost_auc": 0.6673221476230885,
+    "coverage_cost_auc": 0.61875,
+    "curve": [
+      {
+        "budget": 0,
+        "precision": 1.0,
+        "recall": 0.06976744186046512,
+        "f1": 0.13043478260869565,
+        "coverage": 0.375
+      },
+      {
+        "budget": 1,
+        "precision": 1.0,
+        "recall": 0.5581395348837209,
+        "f1": 0.7164179104477612,
+        "coverage": 0.6
+      },
+      {
+        "budget": 2,
+        "precision": 1.0,
+        "recall": 0.813953488372093,
+        "f1": 0.8974358974358974,
+        "coverage": 0.725
+      },
+      {
+        "budget": 3,
+        "precision": 1.0,
+        "recall": 0.8604651162790697,
+        "f1": 0.9249999999999999,
+        "coverage": 0.775
+      },
+      {
+        "budget": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "coverage": 1.0
+      }
+    ]
+  },
+  {
+    "dataset": "hospital",
+    "method": "rbg",
+    "workloads": 800,
+    "outputs": 2400,
+    "mean_reference_cost": 3.38125,
+    "mean_worst_cost": 4.0,
+    "f1_cost_auc": 0.39407337881502563,
+    "coverage_cost_auc": 0.3775,
+    "curve": [
+      {
+        "budget": 0,
+        "precision": 1.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "coverage": 0.0
+      },
+      {
+        "budget": 1,
+        "precision": 1.0,
+        "recall": 0.1358249772105743,
+        "f1": 0.23916532905296953,
+        "coverage": 0.25
+      },
+      {
+        "budget": 2,
+        "precision": 1.0,
+        "recall": 0.365542388331814,
+        "f1": 0.5353805073431241,
+        "coverage": 0.50125
+      },
+      {
+        "budget": 3,
+        "precision": 1.0,
+        "recall": 0.6690975387420237,
+        "f1": 0.8017476788640088,
+        "coverage": 0.75875
+      },
+      {
+        "budget": 4,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "coverage": 1.0
+      }
+    ]
+  }
+]

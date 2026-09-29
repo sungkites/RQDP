@@ -1,0 +1,41 @@
+{
+  "selection": "SHA-256 sort by dataset, category, size, and batch index; first 30 per dataset-size or all if fewer",
+  "batches": 375,
+  "runs": 2250,
+  "sizes": [
+    8,
+    16,
+    24,
+    32
+  ],
+  "radii": [
+    0,
+    1,
+    2
+  ],
+  "cost_regimes": [
+    "unit",
+    "released fixed cost_h"
+  ],
+  "exact_time_limit_seconds": 2.0,
+  "exact_state_limit": 200000,
+  "reference_used_for_selection": false,
+  "counts_by_size_dataset": {
+    "8:assets": 30,
+    "8:beers": 30,
+    "8:flights": 10,
+    "8:hospital": 30,
+    "16:assets": 30,
+    "16:beers": 30,
+    "16:flights": 5,
+    "16:hospital": 30,
+    "24:assets": 30,
+    "24:beers": 30,
+    "24:flights": 3,
+    "24:hospital": 30,
+    "32:assets": 30,
+    "32:beers": 30,
+    "32:flights": 2,
+    "32:hospital": 25
+  }
+}
